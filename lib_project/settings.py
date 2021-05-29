@@ -42,9 +42,11 @@ INSTALLED_APPS = [
     'rest_framework',
 
 
-    #apps
-    'books.apps.BooksConfig',#added books app here
-    'api.apps.ApiConfig', #added api application here
+
+        #apps
+    'books.apps.BooksConfig',   #added books app here
+    'api.apps.ApiConfig',   #added api application here
+
 
 ]
 
